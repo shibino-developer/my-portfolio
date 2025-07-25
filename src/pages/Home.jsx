@@ -26,13 +26,13 @@ function Home() {
       <Navbar />
       <Hero />
       <Services />
-      <Portfolio />
+      <Portfolio /> 
       <Skills />
       <About />
       <Certifications />
-      <Testimonials />
+      <Testimonials />   
       {/* <Clients /> */}
-      <Footer />
+      <Footer />  
       
     </div>
   );

@@ -12,7 +12,7 @@ const AboutDetails = () => {
   return (
     <div className="text-gray-800 font-sans ">
 
-      {/* Header */}
+      
       <section className="py-12 px-6 md:px-20 bg-white">
         
         <h1 className="text-3xl font-bold text-[#ab0f09]" data-aos="fade-right" >Meet <span className="text-black">the Mind Behind</span></h1>

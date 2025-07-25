@@ -17,7 +17,7 @@ const About = () => {
 
           {/* Discover More Button */}
           <Link
-            to="/Portfolio/AboutDetails" 
+            to="/AboutDetails" 
             smooth={true}
             duration={500}
             className="inline-flex items-center gap-2 text-sm font-semibold text-[#000000] px-4 py-2 hover:text-[#ffffff] transition"
