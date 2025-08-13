@@ -21,7 +21,7 @@ const services = [
   },
   {
     icon: <LayoutTemplate size={28} />,
-    title: "Creative Brochure Design",
+    title: "Creative Brochure / Graphic Design",
     desc: "Designing eye-catching digital brochures and marketing materials with clean visuals and effective messaging.",
   },
   {
@@ -46,7 +46,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
         <div className= "md:col-span-1">
         <h3 className="text-xl md:text-3xl font-semibold text-[#060504] border-1-4 border-[#ab0f09] pl-4" data-aos="fade-right">
-          What I do..
+          Services
         </h3>
       </div>
 

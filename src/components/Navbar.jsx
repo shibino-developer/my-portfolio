@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,13 +10,15 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const toggleInsightsDropdown = () => setInsightsDropdownOpen(!insightsDropdownOpen);
 
+  // Nav items for scrolling on same page
   const navItems = [
     { label: 'About', to: 'about' },
     { label: 'Services', to: 'services' },
-    { label: 'Technology', to: 'technology' },
+    // Resume is handled separately as a router link
     { label: 'Contact', to: 'contact' },
   ];
 
+  // Insights submenu remains scroll links
   const insightsSubmenu = [
     { label: 'Case Studies', to: 'case-studies' },
     { label: 'Whitepapers', to: 'whitepapers' },
@@ -31,7 +34,7 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-800">
           {navItems.map((item) => (
-            <Link
+            <ScrollLink
               key={item.label}
               to={item.to}
               smooth={true}
@@ -39,8 +42,16 @@ const Navbar = () => {
               className="cursor-pointer hover:text-[#ab0f09] transition"
             >
               {item.label}
-            </Link>
+            </ScrollLink>
           ))}
+
+          {/* Resume - Router Link */}
+          <RouterLink
+            to="/Resume"
+            className="hover:text-[#ab0f09] transition"
+          >
+            Resume
+          </RouterLink>
 
           {/* Insights Dropdown */}
           <div className="relative group">
@@ -53,7 +64,7 @@ const Navbar = () => {
             {insightsDropdownOpen && (
               <div className="absolute bg-white shadow-md rounded mt-2 w-44 py-2 text-sm z-50">
                 {insightsSubmenu.map((item) => (
-                  <Link
+                  <ScrollLink
                     key={item.label}
                     to={item.to}
                     smooth={true}
@@ -61,7 +72,7 @@ const Navbar = () => {
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     {item.label}
-                  </Link>
+                  </ScrollLink>
                 ))}
               </div>
             )}
@@ -80,7 +91,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-white shadow px-4 py-4 space-y-3 text-sm font-medium text-gray-800">
           {navItems.map((item) => (
-            <Link
+            <ScrollLink
               key={item.label}
               to={item.to}
               smooth={true}
@@ -89,8 +100,17 @@ const Navbar = () => {
               className="block hover:text-[#ab0f09]"
             >
               {item.label}
-            </Link>
+            </ScrollLink>
           ))}
+
+          {/* Resume - Router Link */}
+          <RouterLink
+            to="/resume"
+            onClick={() => setMenuOpen(false)}
+            className="block hover:text-[#ab0f09]"
+          >
+            Resume
+          </RouterLink>
 
           {/* Mobile Dropdown */}
           <div>
@@ -103,7 +123,7 @@ const Navbar = () => {
             {insightsDropdownOpen && (
               <div className="pl-4 space-y-1 mt-2">
                 {insightsSubmenu.map((item) => (
-                  <Link
+                  <ScrollLink
                     key={item.label}
                     to={item.to}
                     smooth={true}
@@ -112,7 +132,7 @@ const Navbar = () => {
                     onClick={() => setMenuOpen(false)}
                   >
                     {item.label}
-                  </Link>
+                  </ScrollLink>
                 ))}
               </div>
             )}

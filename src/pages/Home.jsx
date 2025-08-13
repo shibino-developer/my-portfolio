@@ -12,7 +12,7 @@ import About from '../sections/About';
 import Certifications from '../sections/Certifications';
 import Testimonials from '../sections/Testimonials';
 // import Clients from './sections/Clients';
-import Footer from '../components/Footer';
+
 
 function Home() {
   useEffect(() => {
@@ -32,7 +32,7 @@ function Home() {
       <Certifications />
       <Testimonials />   
       {/* <Clients /> */}
-      <Footer />  
+      
       
     </div>
   );

@@ -22,10 +22,10 @@ const Hero = () => (
           Aspiring IT professional skilled in web design and development, data analytics, techncial writing. Passionate about solving problems, creating meaningful digital content, and continuous learning. Let's connect and collaborate!
     
         </p>
-        {/* <div className="mt-6">
-          <a href="#portfolio" className="bg-[#ab0f09] text-white px-6 py-3 rounded-full mr-4">View Portfolio</a>
-          <a href="#contact" className="border border-[#ab0f09] text-[#ab0f09] px-6 py-3 rounded-full">Contact</a>
-        </div> */}
+        <div className="mt-6">
+          {/* <a href="/shibino.pdf" className="inline-block mt-6 px-6 py-3 border border-[#ab0f09] text-[#ab0f09] bg-white font-semibold rounded-md hover:bg-[#ab0f09] hover:text-white transition duration-300">View Portfolio</a> */}
+          {/* <a href="#contact" className="border border-[#ab0f09] text-[#ab0f09] px-6 py-3 rounded-full">Contact</a> */}
+        </div>
       </div>
 
       {/* 🖼️ Image Section */}

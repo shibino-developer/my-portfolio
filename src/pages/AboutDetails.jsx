@@ -15,7 +15,7 @@ const AboutDetails = () => {
       
       <section className="py-12 px-6 md:px-20 bg-white">
         
-        <h1 className="text-3xl font-bold text-[#ab0f09]" data-aos="fade-right" >Meet <span className="text-black">the Mind Behind</span></h1>
+        <h1 className="text-3xl font-bold text-[#ab0f09] pt-6" data-aos="fade-right" >Meet <span className="text-black">the Mind Behind</span></h1>
         <p className="mt-4 text-md md:text-lg" data-aos="fade-left" >
           Hi! I’m a passionate Python AI Developer with a creative mindset and a strong foundation in technology. My journey began with curiosity, shaped by challenges, and fueled by a drive to create intelligent solutions that go beyond the conventional.
 
