@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.22dfb1be.css",
-    "main.js": "/my-portfolio/static/js/main.623ed187.js",
+    "main.css": "/my-portfolio/static/css/main.e7afee7a.css",
+    "main.js": "/my-portfolio/static/js/main.93931abf.js",
     "static/js/453.052877a7.chunk.js": "/my-portfolio/static/js/453.052877a7.chunk.js",
     "static/media/Movie recommendation .jpg": "/my-portfolio/static/media/Movie recommendation .8104342c205163e23710.jpg",
     "static/media/GenAI versecraft.jpg": "/my-portfolio/static/media/GenAI versecraft.140a3b42f03752475e12.jpg",
@@ -21,6 +21,7 @@
     "static/media/cybrary.png": "/my-portfolio/static/media/cybrary.4519fe0362be2f5276c3.png",
     "static/media/Password manager.jpg": "/my-portfolio/static/media/Password manager.fffb3ae137a55bfd6b14.jpg",
     "static/media/greatlearning.png": "/my-portfolio/static/media/greatlearning.fce4d8e01c80c881fbe4.png",
+    "static/media/work1.jpg": "/my-portfolio/static/media/work1.be579001d8ac26c4432e.jpg",
     "static/media/Medicaimage.jpg": "/my-portfolio/static/media/Medicaimage.689aff5012f73a4c2a87.jpg",
     "static/media/Reactjs.jpg": "/my-portfolio/static/media/Reactjs.7fafa4d2826653bee130.jpg",
     "static/media/udemy.png": "/my-portfolio/static/media/udemy.f52b035420d84c120f4e.png",
@@ -45,12 +46,12 @@
     "static/media/tensorflow.jpg": "/my-portfolio/static/media/tensorflow.c16423835fec3e963503.jpg",
     "static/media/python.jpg": "/my-portfolio/static/media/python.e7e3490e5ef61c9c1514.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.22dfb1be.css.map": "/my-portfolio/static/css/main.22dfb1be.css.map",
-    "main.623ed187.js.map": "/my-portfolio/static/js/main.623ed187.js.map",
+    "main.e7afee7a.css.map": "/my-portfolio/static/css/main.e7afee7a.css.map",
+    "main.93931abf.js.map": "/my-portfolio/static/js/main.93931abf.js.map",
     "453.052877a7.chunk.js.map": "/my-portfolio/static/js/453.052877a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22dfb1be.css",
-    "static/js/main.623ed187.js"
+    "static/css/main.e7afee7a.css",
+    "static/js/main.93931abf.js"
   ]
 }
