@@ -54,7 +54,7 @@ const TechStack = () => {
     <section id="tech" className="py-20 bg-gray-100">
       <div className="max-w-[1400px] mx-auto px-6">
      <h3 className="text-2xl md:text-2xl font-semibold text-[rgb(6,5,4)] border-1-4 border-[#ab0f09] pl-4" data-aos="fade-right">
-          Skills
+          Technical Expertise
         </h3></div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4 pt-6">

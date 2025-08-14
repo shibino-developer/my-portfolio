@@ -26,7 +26,7 @@ const Testimonials = () => {
     <section id="testimonials" className="py-20 bg-gray-50">
       <div className="max-w-[1400px] mx-auto px-6">
      <h3 className="text-2xl md:text-2xl font-semibold text-[rgb(6,5,4)] border-1-4 border-[#ab0f09]" data-aos="fade-right">
-          Testimonials
+          Reviews and Feedbacks
         </h3></div>
 
 

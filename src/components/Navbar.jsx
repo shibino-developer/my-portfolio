@@ -22,8 +22,8 @@ const Navbar = () => {
   const insightsSubmenu = [
     { label: 'Case Studies', to: 'case-studies' },
     { label: 'Whitepapers', to: 'whitepapers' },
-    { label: 'Blog', to: 'blog' },
-    { label: 'Designs', to: 'designs' },
+    { label: 'Publications', to: 'publications' },
+    // { label: 'Designs', to: 'designs' },
   ];
 
   return (
