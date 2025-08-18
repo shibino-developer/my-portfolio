@@ -97,14 +97,14 @@ I am excited about the future and eager to embrace new challenges, confident tha
                 date: 'June 2022 - Present',
               },
               {
-                company: 'SEQUOIA APPLIED TECHNOLOGIES',
-                role: 'Software Engineer',
-                date: 'March 2021 - October 2021',
-              },
-              {
                 company: 'QUEST INNOVATIVE SOLUTIONS',
                 role: 'Software Engineer Trainee',
                 date: 'September 2020 - March 2021',
+              },
+              {
+                company: 'Keltron Knowledge Centre',
+                role: 'Intern',
+                date: 'June 2017',
               },
               
             ].map(({ company, role, date }) => (
