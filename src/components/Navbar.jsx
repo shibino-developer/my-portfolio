@@ -10,16 +10,16 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const toggleInsightsDropdown = () => setInsightsDropdownOpen(!insightsDropdownOpen);
 
-  // Nav items for scrolling on same page (except Contact)
+  // Nav items for scrolling on the same page (About, Services)
   const navItems = [
     { label: 'About', to: 'about' },
     { label: 'Services', to: 'services' },
   ];
 
+  // Insights submenu (full pages)
   const insightsSubmenu = [
-    { label: 'Case Studies', to: 'case-studies' },
-    { label: 'Whitepapers', to: 'whitepapers' },
-    { label: 'Publications', to: 'publications' },
+    { label: 'Case Studies', to: '/case-studies' },
+    { label: 'Publications', to: '/publications' },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Navbar = () => {
 
           {/* Resume */}
           <RouterLink
-            to="/Resume"
+            to="/resume"
             className="hover:text-[#ab0f09] transition"
           >
             Resume
@@ -69,15 +69,14 @@ const Navbar = () => {
             {insightsDropdownOpen && (
               <div className="absolute bg-white shadow-md rounded mt-2 w-44 py-2 text-sm z-50">
                 {insightsSubmenu.map((item) => (
-                  <ScrollLink
+                  <RouterLink
                     key={item.label}
                     to={item.to}
-                    smooth={true}
-                    duration={500}
                     className="block px-4 py-2 hover:bg-gray-100"
+                    onClick={() => setInsightsDropdownOpen(false)}
                   >
                     {item.label}
-                  </ScrollLink>
+                  </RouterLink>
                 ))}
               </div>
             )}
@@ -108,7 +107,7 @@ const Navbar = () => {
             </ScrollLink>
           ))}
 
-          {/* Contact - Router Link */}
+          {/* Contact */}
           <RouterLink
             to="/contact"
             onClick={() => setMenuOpen(false)}
@@ -126,7 +125,7 @@ const Navbar = () => {
             Resume
           </RouterLink>
 
-          {/* Mobile Dropdown */}
+          {/* Mobile Insights Dropdown */}
           <div>
             <button
               onClick={toggleInsightsDropdown}
@@ -137,16 +136,17 @@ const Navbar = () => {
             {insightsDropdownOpen && (
               <div className="pl-4 space-y-1 mt-2">
                 {insightsSubmenu.map((item) => (
-                  <ScrollLink
+                  <RouterLink
                     key={item.label}
                     to={item.to}
-                    smooth={true}
-                    duration={500}
                     className="block hover:text-[#ab0f09]"
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {
+                      setMenuOpen(false);
+                      setInsightsDropdownOpen(false);
+                    }}
                   >
                     {item.label}
-                  </ScrollLink>
+                  </RouterLink>
                 ))}
               </div>
             )}
