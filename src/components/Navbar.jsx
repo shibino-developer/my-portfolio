@@ -10,20 +10,16 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const toggleInsightsDropdown = () => setInsightsDropdownOpen(!insightsDropdownOpen);
 
-  // Nav items for scrolling on same page
+  // Nav items for scrolling on same page (except Contact)
   const navItems = [
     { label: 'About', to: 'about' },
     { label: 'Services', to: 'services' },
-    // Resume is handled separately as a router link
-    { label: 'Contact', to: 'contact' },
   ];
 
-  // Insights submenu remains scroll links
   const insightsSubmenu = [
     { label: 'Case Studies', to: 'case-studies' },
     { label: 'Whitepapers', to: 'whitepapers' },
     { label: 'Publications', to: 'publications' },
-    // { label: 'Designs', to: 'designs' },
   ];
 
   return (
@@ -33,6 +29,7 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-800">
+          {/* Scroll links */}
           {navItems.map((item) => (
             <ScrollLink
               key={item.label}
@@ -45,7 +42,15 @@ const Navbar = () => {
             </ScrollLink>
           ))}
 
-          {/* Resume - Router Link */}
+          {/* Contact - Router Link */}
+          <RouterLink
+            to="/contact"
+            className="hover:text-[#ab0f09] transition"
+          >
+            Contact
+          </RouterLink>
+
+          {/* Resume */}
           <RouterLink
             to="/Resume"
             className="hover:text-[#ab0f09] transition"
@@ -103,7 +108,16 @@ const Navbar = () => {
             </ScrollLink>
           ))}
 
-          {/* Resume - Router Link */}
+          {/* Contact - Router Link */}
+          <RouterLink
+            to="/contact"
+            onClick={() => setMenuOpen(false)}
+            className="block hover:text-[#ab0f09]"
+          >
+            Contact
+          </RouterLink>
+
+          {/* Resume */}
           <RouterLink
             to="/resume"
             onClick={() => setMenuOpen(false)}

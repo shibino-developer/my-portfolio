@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import AboutDetails from './pages/AboutDetails';
 import Resume from './pages/Resume';
 import PortfolioDetails from './pages/PortfolioDetails';
+import Contact from './pages/Contact' 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'; // ✅ Import Footer
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/AboutDetails" element={<AboutDetails />} />
           <Route path="/PortfolioDetails" element={<PortfolioDetails />} />
           <Route path="/Resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
 
