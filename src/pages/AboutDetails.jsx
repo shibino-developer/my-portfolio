@@ -19,13 +19,13 @@ const AboutDetails = () => {
         <p className="mt-4 text-md md:text-lg" data-aos="fade-left" >
           Hi! I’m a passionate Python AI Developer with a creative mindset and a strong foundation in technology. My journey began with curiosity, shaped by challenges, and fueled by a drive to create intelligent solutions that go beyond the conventional.
 
-<br/><br/>Coming from a hands-on academic background, I built an IoT-based multipurpose agricultural robot, sparking my interest in blending hardware with software. As I explored deeper into AI, I discovered a world where code meets creativity — leading me to projects like VerseCraft, a generative AI platform that merges language, emotion, and intelligence.
+<br/><br/>Coming from a hands-on academic background, I built an IoT-based multipurpose agricultural robot, sparking my interest in blending hardware with software. As I explored deeper into AI, I discovered a world where code meets creativity - leading me to projects like VerseCraft, a generative AI platform that merges language, emotion, and intelligence.
 
-I’ve independently picked up skills in Python, FastAPI, Machine Learning, Deep Learning, NLP, React, and GenAI tools like Hugging Face Transformers — not just by studying them, but by building and experimenting with real-world applications.
+I’ve independently picked up skills in Python, Machine Learning, Deep Learning, NLP, React, and GenAI tools like Hugging Face Transformers - not just by studying them, but by building and experimenting with real-world applications.
 
-<br/><br/>What defines me isn’t just the tools I use — it’s the resilience I built through learning, the joy of solving real problems, and the vision to craft technology that’s meaningful and accessible.
+<br/><br/>What defines me isn’t just the tools I use - it’s the resilience I built through learning, the joy of solving real problems, and the vision to craft technology that’s meaningful and accessible.
 
-<br/>When I’m not coding, I explore design, creative writing, and how tech can amplify human expression. I believe the future belongs to developers who can both think deeply and feel deeply — and I’m here to be one of them.
+<br/>When I’m not coding, I explore design, creative writing, and how tech can amplify human expression. I believe the future belongs to developers who can both think deeply and feel deeply - and I’m here to be one of them.
  </p> 
       </section>
 

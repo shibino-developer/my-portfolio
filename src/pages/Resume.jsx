@@ -49,27 +49,53 @@ I am excited about the future and eager to embrace new challenges, confident tha
   <h4 className="text-xl font-semibold mb-4">My Stack</h4>
 
   <div className="mb-6 border-l-4 border-[#ab0f09] pl-4">
-    <h3 className="font-semibold mb-2">Machine Learning & Data Science</h3>
+    <h3 className="font-semibold mb-2">Languages</h3>
     <ul className="list-disc list-inside text-sm">
       <li>Python 3.x</li>
-      <li>NumPy, Pandas, Matplotlib, Seaborn</li>
-      <li>Scikit-learn, XGBoost, LightGBM</li>
-      <li>TensorFlow, Keras, PyTorch</li>
-      <li>NLTK, spaCy, Hugging Face Transformers</li>
-      <li>Flask, FastAPI, Docker</li>
-      <li>Git, GitHub</li>
-      <li>MLflow, Weights & Biases</li>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS3</li>
+      <li>SQL</li>
     </ul>
   </div>
 
   <div className="mb-6 border-l-4 border-[#ab0f09] pl-4">
-    <h3 className="font-semibold mb-2">Web Development</h3>
+    <h3 className="font-semibold mb-2">Frameworks and Libraries</h3>
     <ul className="list-disc list-inside text-sm">
-      <li>HTML5, CSS3, JavaScript, Bootstrap, ReactJS</li>
-      <li>Flask, FastAPI, Django</li>
-      <li>SQLite, PostgreSQL, MySQL, MongoDB (whichever you use)</li>
-      <li>RESTful APIs, JSON</li>
-      <li>Git, GitHub, Docker, Heroku, Netlify</li>
+      <li>Django</li>
+      <li>Flask</li>
+      <li>ReactJS</li>
+      <li>Bootstrap</li>
+      <li>Tailwind CSS</li>
+    </ul>
+  </div>
+
+  <div className="mb-6 border-l-4 border-[#ab0f09] pl-4">
+    <h3 className="font-semibold mb-2">Databases</h3>
+    <ul className="list-disc list-inside text-sm">
+      <li>MySQL</li>
+      <li>SQLite</li>
+      <li>PostgreSQL</li>
+    </ul>
+  </div>
+
+  <div className="mb-6 border-l-4 border-[#ab0f09] pl-4">
+    <h3 className="font-semibold mb-2">Tools and Platforms</h3>
+    <ul className="list-disc list-inside text-sm">
+      <li>Git / GitHub</li>
+      <li>Postman</li>
+      <li>Phabricator</li>
+      <li>Buildkite</li>
+    </ul>
+  </div>
+   <div className="mb-6 border-l-4 border-[#ab0f09] pl-4">
+    <h3 className="font-semibold mb-2">AI/ML Exposure</h3>
+    <ul className="list-disc list-inside text-sm">
+      <li>Pandas</li>
+      <li>NumPy</li>
+      <li>Scikit-learn</li>
+      <li>TensorFlow</li>
+      <li>LangChain</li>
     </ul>
   </div>
 </div>
@@ -84,7 +110,8 @@ I am excited about the future and eager to embrace new challenges, confident tha
             </ul>
         {/* Content */}
       </div>
-    </div>
+      </div>
+   
 
     {/* Second main part with 2 sub-parts */}
     <div className="space-y-6">
@@ -92,12 +119,7 @@ I am excited about the future and eager to embrace new challenges, confident tha
         <h4 className="text-xl font-semibold mb-2">Experiences</h4>
          {[
               {
-                company: 'SELF DEVELOPER',
-                role: 'Python Developer',
-                date: 'June 2022 - Present',
-              },
-              {
-                company: 'QUEST INNOVATIVE SOLUTIONS',
+                company: 'Quest Innovative Solutions',
                 role: 'Software Engineer Trainee',
                 date: 'September 2020 - March 2021',
               },
