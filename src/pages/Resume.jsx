@@ -18,25 +18,14 @@ const Resume = () => {
         
         <h1 className="text-3xl font-bold text-[#ab0f09] pt-6" data-aos="fade-right" >My <span className="text-black">Professional Journey</span></h1>
         <p className="mt-4 text-md md:text-lg" data-aos="fade-left" >
-          My journey in technology has been one of passion, perseverance, and purposeful growth. From my early days as a Computer Science student to my current self-driven developer and learner, I have faced and overcome challenges that have shaped not only my skills but also my character.
+          I began my professional journey with a B.Tech in Computer Science and Engineering, where I developed an interest in software development and problem-solving. Early in my career, I worked as a Software Engineer Trainee, gaining initial exposure to Python-based backend tasks, debugging, documentation, and Agile development practices.
 
-After graduating with a B.Tech in Computer Science in 2020, I was excited and eager to step into the professional world. I secured an internship immediately after graduation, where I gained valuable hands-on experience in full-stack software development, working extensively with Python, Django, and React.js. This internship gave me a practical understanding of coding, teamwork, and agile workflows, solidifying my technical foundation.
+<br/><br/>I committed myself to structured, self-directed upskilling. Over the past few years, I have invested 2,000+ hours in hands-on learning through real-world projects in Python, Django, FastAPI, REST APIs, PostgreSQL, React, and machine learning workflows. During this time, I focused on writing clean, modular code, following OOP principles, PEP 8 standards, and maintaining disciplined Git/GitHub practices.
 
-<br/><br/>Following my internship, I worked as a Software Engineer Trainee for about eight months. In this role, I contributed to real-world projects, collaborated with experienced developers, and deepened my knowledge of software design, debugging, and deployment. It was a period of intense learning and professional growth, during which I honed not only my technical expertise but also my communication and problem-solving skills.
+<br/><br/>Alongside technical growth, I also worked as a part-time private tutor, which strengthened my communication, mentoring, and time-management skills. Teaching helped me develop clarity in explaining concepts and reinforced my own understanding of fundamentals.
 
-However, life presented an unforeseen challenge-a necessary medical surgery that required me to take a pause from my career. This phase was undoubtedly difficult. Being away from the professional environment, while recovering physically and mentally, tested my resilience and determination. Yet, I chose to see this period not as a setback but as an opportunity.
-
-<br/><br/>During my recovery, I committed myself to relentless self-learning. I immersed myself in coding projects, building over 20 full-stack websites and web applications from scratch. I also ventured into machine learning, creating projects like a predictive health monitoring system that could potentially save lives by early detection of health issues. Additionally, I explored creative avenues by designing posters and writing technical content, which allowed me to expand my skill set beyond coding.
-
-To keep my knowledge current and competitive, I pursued numerous certifications in areas including full-stack development, data analytics, cloud security, cybersecurity fundamentals, and enterprise resource planning. This continuous upskilling journey reflected my unwavering commitment to personal and professional growth despite the obstacles.
-
-<br/><br/>Throughout this journey, one quote has profoundly inspired me and guided my approach to life and work:
-<br/><br/>“I hide my capabilities to show my abilities.” <br/><br/>
-For me, this means focusing less on what I claim I can do and more on demonstrating tangible results through my work, perseverance, and achievements.
-
-Today, I stand ready to bring my diverse skills, resilience, and passion to a dynamic organization. I am driven by the desire to contribute meaningfully, learn continuously, and grow alongside a team that values innovation and dedication. My journey is a testament to my belief that true capability shines brightest through consistent effort, adaptability, and a refusal to give up-even when the path is tough.
-
-I am excited about the future and eager to embrace new challenges, confident that every experience has prepared me to make a real impact in the tech world. </p> 
+<br/><br/>Today, I am a confident entry-level Python Full Stack Developer with practical project experience, a strong backend foundation, and a continuous learning mindset. I am actively seeking a junior or trainee role where I can contribute to real-world software development, collaborate with experienced teams, and grow into a skilled full-stack professional.
+</p> 
       </section>
 
       {/* Core Values */}
@@ -63,7 +52,7 @@ I am excited about the future and eager to embrace new challenges, confident tha
     <h3 className="font-semibold mb-2">Frameworks and Libraries</h3>
     <ul className="list-disc list-inside text-sm">
       <li>Django</li>
-      <li>Flask</li>
+      <li>Fskla</li>
       <li>ReactJS</li>
       <li>Bootstrap</li>
       <li>Tailwind CSS</li>

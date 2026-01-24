@@ -5,6 +5,7 @@ import AboutDetails from './pages/AboutDetails';
 import Resume from './pages/Resume';
 import PortfolioDetails from './pages/PortfolioDetails';
 import CaseStudies from './pages/CaseStudies';
+import CaseStudy from "./pages/CaseStudy";
 import Publications from './pages/Publications';
 import Contact from './pages/Contact'; 
 import Navbar from './components/Navbar';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/AboutDetails" element={<AboutDetails />} />
           <Route path="/PortfolioDetails" element={<PortfolioDetails />} />
+          <Route path="/projects/:slug" element={<CaseStudy />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/Publications" element={<Publications />} />
           <Route path="/Resume" element={<Resume />} />
