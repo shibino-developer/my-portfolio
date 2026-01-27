@@ -41,10 +41,8 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Insights</h3>
           <ul className="text-sm text-gray-300 space-y-2">
             <li>Case Studies</li>
-            <li>White Papers</li>
-            <li>Newsroom</li>
-            <li>Blog</li>
-            <li>Websites</li>
+            <li>Publications</li>
+          
           </ul>
         </div>
 

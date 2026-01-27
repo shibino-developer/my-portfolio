@@ -28,31 +28,6 @@ const Portfolio = () => {
       </Link>
     </div>
 
-    {/* Right: Image Grid */}
-    <div className="grid grid-cols-2 gap-4" data-aos="fade-left">
-      <img 
-        src={healthinsimage} 
-        alt="Project 1" 
-        className="w-full h-auto rounded-lg shadow-md"
-      />
-      
-      <img 
-        src={blog1} 
-        alt="Project 2" 
-        className="w-full h-auto rounded-lg shadow-md"
-      />
-      <img 
-        src={work1} 
-        alt="Project 3" 
-        className="w-full h-40 rounded-lg shadow-md"
-      />
-      <img 
-        src={fblog1} 
-        alt="Project 4" 
-        className="w-full h-auto rounded-lg shadow-md"
-      />
-    </div>
-
   </div>
 </section>
 

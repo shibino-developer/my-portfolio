@@ -41,22 +41,27 @@ const Navbar = () => {
               {item.label}
             </ScrollLink>
           ))}
-
-          {/* Contact - Router Link */}
+          {/* Portfolio */}
           <RouterLink
-            to="/contact"
+            to="/PortfolioDetails"
             className="hover:text-[#ab0f09] transition"
           >
-            Contact
+            Projects
           </RouterLink>
 
-          {/* Resume */}
+           {/* Resume */}
           <RouterLink
             to="/resume"
             className="hover:text-[#ab0f09] transition"
           >
             Resume
           </RouterLink>
+
+         
+
+         
+
+          
 
           {/* Insights Dropdown */}
           <div className="relative group">
@@ -81,6 +86,13 @@ const Navbar = () => {
               </div>
             )}
           </div>
+           {/* Contact - Router Link */}
+          <RouterLink
+            to="/contact"
+            className="hover:text-[#ab0f09] transition"
+          >
+            Contact
+          </RouterLink>
         </nav>
 
         {/* Mobile Hamburger */}
